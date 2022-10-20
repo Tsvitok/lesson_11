@@ -35,7 +35,7 @@ body{
 }
 .button-up:active{
     background-color: rgb(233, 21, 21);
-    box-shadow: -15px -15px -14px rgb(235, 37, 37);
+    box-shadow: -15px -15px 14px rgb(235, 37, 37);
     top: 152px;
     right: 92px;
 }
