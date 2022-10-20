@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+    font-family: "Lato", sans-serif;
+}
+.wrapper{
+    position: relative;
+    overflow:hidden;
+} 
+.conteiner{
+    max-width: 1300px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    position: relative;
+}
+.container-mems{
+    margin-bottom: 800px;
+}
+/* ================ кнопка "До гори"============ */
+.button-up{
+    position: fixed;
+    margin-top: 250px;
+    top: 150px;
+    right: 90px;
+    font-size: 60px;
+    font-family: "Lato";
+    font-weight: 900;
+    color: rgb(4, 0, 255);
+    border: 5px solid green;
+    box-shadow: 3px 3px 5px rebeccapurple;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 4px greenyellow;
+    z-index: 50;
+}
+.button-up:active{
+    background-color: rgb(233, 21, 21);
+    box-shadow: -15px -15px -14px rgb(235, 37, 37);
+    top: 152px;
+    right: 92px;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.text{
+    font-family: "Lato";
+    font-size: 46px;
+    font-weight: 700;
+    color: rgb(184, 11, 11);
+    
+}
+
+
+.text--1{
+    color: rgb(0, 17, 255);
+    text-shadow: 3px 2px rgb(167, 167, 228);
+    margin-bottom: 80px;
+    padding: 15px;
+    text-align: center;
+}
+.text--1:hover{
+    color: rgb(14, 167, 194);
+    text-shadow: 3px 2px rgb(170, 180, 190);
+    text-decoration: underline;
+}
+.text--mem-1-green{
+    color: aqua;
+    text-shadow: 3px 2px 1px rgb(255, 0, 0);
+    border: 2px solid green;
+    position: relative;
+    bottom: 0px;
+    right: -200px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 35px 20px;
+    background-color: rgb(102, 98, 98);
+    box-shadow: 2px 3px 6px greenyellow;
+    z-index: 50;
+}
+.text--mem-1-green:hover{
+    bottom: 2px;
+    right: -202px;
+}
+
+.mem-1{
+    margin-bottom: 550px;
+    background-color: rgb(241, 240, 237);
+    border: 3px solid rgb(241, 53, 53);
+    box-shadow: 5px 2px 6px rgb(92, 92, 91);
+}
+.button{
+    font-size: 60px;
+    font-family: "Lato";
+    font-weight: 900;
+    color: rgb(4, 0, 255);
+    border: 5px solid green;
+    box-shadow: 3px 3px 5px rebeccapurple;
+    display: inline-block;
+    margin-bottom: 120px;
+    position: relative;
+    top: 100px;
+    right: -10px;
+    background-color: aquamarine;
+    
+}
+.button:hover{
+    box-shadow: 16px 16px 30px rgb(218, 65, 5);
+    
+}
+.button:active{
+    background-color: rgb(219, 7, 7);
+    
+}
+
+.img1{
+    max-width: 800px;
+    background-color: rgb(15, 175, 42);
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    z-index: 0;
+    right: 380px;
+    /* opacity: 0; */
+    /* overflow: hidden; */
+}
+
+.text--mem-1-pink{
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 5px;
+    max-width: 360px;
+    font-size: 50px;
+    line-height: 1.5;
+    color: chartreuse;
+    border-radius: 55px 35px 75px 0px;
+    max-width: 550px;
+    padding: 10px;
+    text-align: left;
+    background-color: rgb(207, 179, 233);
+    box-shadow: 5px 5px 3px rgb(148, 29, 228);
+    position: relative;
+    bottom: 550px;
+    left: 650px;
+    opacity: 0;
+    overflow: hidden;
+}
+.text--mem-1-green:active ~ .text--mem-1-pink{
+    opacity: 1;
+    overflow: visible;
+
+} 
+.text--mem-1-pink{
+    overflow: visible;
+    /* opacity: 1; */
+}
+.button--mem-1{
+    font-size: 60px;
+    font-family: "Lato";
+    font-weight: 900;
+    padding: 10px;
+    color: rgb(43, 255, 0);
+    border: 5px solid rgb(218, 89, 15);
+    box-shadow: 3px 3px 5px rgb(123, 22, 223);
+    text-shadow: 2px 2px 2px navy;
+    border-radius: 25px;
+    display: inline-block;
+    /* position: relative; */
+    bottom: 200px;
+    right: 540px;
+    background-color: rgb(153, 211, 192);
+    z-index: 7;
+}
+
+/* ================= mem-2 ============ */
+
+.mem-2{
+    margin-bottom: 550px;
+    background-color: rgb(241, 240, 237);
+    border: 3px solid rgb(241, 53, 53);
+    box-shadow: 5px 2px 6px rgb(92, 92, 91);
+}
+.text--2{
+    color: rgb(106, 99, 204);
+    text-align: right;
+    text-transform: uppercase;
+}
+.text--2-circle{
+    border: 5px solid black;
+    display: inline-block;
+    background-color: rgb(226, 206, 21);
+    border-radius: 50%;
+    padding: 15px;
+    
+}
+.text--2-circle:hover{
+    background-color: rgb(179, 162, 10);
+    border: 5px solid black;
+    box-shadow: 2px 2px 3px rgb(231, 49, 49);
+}
+.button--mem-2{
+    font-size: 60px;
+    font-family: "Lato";
+    font-weight: 900;
+    padding: 10px;
+    color: rgb(128, 192, 10);
+    border: 5px solid rgb(245, 99, 15);
+    box-shadow: 3px 3px 5px rgb(164, 86, 241);
+    text-shadow: 2px 2px 2px rgb(3, 72, 94);
+    border-radius: 25px;
+    display: inline-block;
+    /* position: relative; */
+    bottom: 200px;
+    left: -690px;
+    background-color: rgb(43, 221, 19);
+}
+.text--mem-2-yellow{
+    display: inline-block;
+    /* border: 2px solid green; */
+    padding: 16px;
+    position: relative;
+    left: 350px;
+}
+/* ++++++++++++++++++++++++++++++++++++ */
+
+/* +++++++++++++++++ mem-3 ============ */
+.mem-3__img03{
+    max-width: 100%;
+    min-width: 800px;
+    margin-bottom: 30px;
+}
+.text--3-i-am{
+    text-align: right;
+    padding: 50px;
+}
+.mem-3{
+    border: 5px solid burlywood;
+    background-color: antiquewhite;
+    /* margin-bottom: 10px; */
+}
+/* .text--3-red{
+    position: relative;
+    top:0;
+    left: 0;
+} */
+.button--mem-3{
+    font-size: 60px;
+    font-family: "Lato";
+    font-weight: 900;
+    padding: 10px;
+    color: rgb(128, 192, 10);
+    border: 5px solid rgb(245, 99, 15);
+    box-shadow: 3px 3px 5px rgb(164, 86, 241);
+    text-shadow: 2px 2px 2px rgb(3, 72, 94);
+    border-radius: 25px;
+    /* display: inline-block; */
+    position: relative;
+    top: 20px;
+    left: 100px;
+    background-color: rgb(43, 221, 19);
+}
+
+.text--3-title {
+    color: rgb(14, 187, 57);
+    border: 5px solid red;
+    max-width: 500px;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    left: 150px;
+}
+
+.text--3-subtitle {
+    color: rgb(14, 187, 57);
+    border: 5px solid red;
+    max-width: 500px;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    left: 550px;
+}
+.mem-3__img13 {
+    border: 5px solid rgb(44, 2, 2);
+    box-shadow: 5px -5px 6px grey;
+    border-radius: 50%;
+    max-width: 100%;
+    width: 800px;
+    position: relative;
+    left: 300px;
+}
+
+/* ++++++++++++++++++++++++++++++++++++ */
+
+/* =============== mem-4 ============ */
+
+
+
+/* ++++++++++++++++++++++++++++++++++++ */
+.mem-4 {
+    background-color: beige;
+}
+.mem-4__text{
+    color: rgb(107, 53, 207);
+    text-align: center;
+}
+
+/* .text--mem-4-green {
+    color: rgb(14, 187, 57);
+    background-color: rgb(190, 238, 238);
+    display: inline-block;
+    margin-bottom: 15px;
+    border: 3px solid blue;
+    border-radius: 50%;
+} */
+.text {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.img--5,
+.img--6 {
+    max-width: 100%;
+    width: 1230px;
+    margin-bottom: 130px;
+    
+}
+
+.mem-4__button {
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+/* =============== mem 5 ============= */
+.mem-5__text {
+    margin-bottom: 170px;
+}
+
+.text--button-red{
+    color: aliceblue;
+    border: 10px solid rgb(70, 16, 16);
+    border-radius: 13px;
+    box-shadow: 5px 5px 5px green;
+    background-color: rgb(243, 86, 86);
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-bottom: 770px;
+    position: relative;
+    left: 200px;
+    top: 0px;
+}
+.text--button-red:hover{
+    left: 202px;
+    top: 2px;
+}
+.text--button-red:active{
+    left: 204px;
+    top: 4px;
+    color: rgb(195, 221, 245);
+    background-color: rgb(230, 62, 62);
+}
+
+
+.mem-5__button {
+    margin-bottom: 500px;
+}
+
+/* +++++++++++++++++++++++++++++++++++ */
+.container-car{
+    max-width: 1000px;
+    max-height: 1000px;
+    margin: 0 auto;
+    
+}
+.car{
+    margin-bottom: 30px;
+}
+.car__body{
+    width: 800px;
+    height: 320px;
+    background-color: blue;
+    border-radius: 170px 270px 100px 100px;
+    margin-top: 200px;
+    /* position: static; */
+    top:50px
+}
+.car__dor{
+    width: 150px;
+    height: 240px;
+    background-color: brown;
+    border-radius: 0 55px 0 0;
+    position: static;
+    top: 251px;
+    left: 550px;
+}
+.wheels__wheel {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid black;
+    background-color: aqua;
+    position: static;
+    top: 450px;
+    left: 153px;
+}
+.wheels__disc {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 5px solid black;
+    background-color: rgb(40, 161, 10);
+    position: static;
+    top: 490px;
+    left: 192px;
+
+
+}
+.road{
+    margin-top: 150px;
+}
+/* ==================================== */
+.container-car-2{
+    max-width: 1330px;
+    max-height: 1230px;
+    margin: 0 auto;
+    background: url("../img/img10.jpg") 0 0 / 100% 100% no-repeat;
+    
+
+}
+.car-2__bodys{
+    position: relative;
+    width: 800px;
+    height: 320px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 270px 370px 100px 100px;
+    margin-top: 200px;
+    /* position: static; */
+    top:50px
+}
+.body__glass {
+    width: 180px;
+    height: 162px;
+    border-right: 20px solid rgb(105, 121, 105);
+    background-color: rgb(70, 95, 70); 
+    border-radius: 5px 285px 0px 265px;
+    border-left: 3px solid rgb(79, 41, 216);
+    position: relative;
+    top: 10px;
+    bottom: 0px;
+    right: 0px;
+    left: 605px;
+    z-index: 2;
+    display: inline-block;
+}
+
+.car-2 {
+    position: relative;
+    top: 400px;
+    bottom: 0px;
+    left: 150px;
+}
+.car-2__motors {
+    width: 320px;
+    height: 150px;
+    border-right: 2px solid black;
+    display: inline-block;
+    border-radius: 0px 100px 50px 0px;
+    position: relative;
+    background-color:  rgb(59, 59, 59);
+    top: -100px;
+    left: 700px;
+    
+}
+.motor__r {
+    width: 50px;
+    height: 40px;
+    background-color: rgb(65, 62, 238);
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    position: relative;
+    top: 30px;
+    left: 270px;
+    border-radius: 5px 50px 50px 75px;
+    z-index: 0;
+}
+.motor__r:hover{
+    background-color: rgb(189, 238, 12);
+}
+.motor__l {
+    width: 70px;
+    height: 30px;
+    background-color: rgb(20, 2, 36);
+    border: 2px solid black;
+    position: relative;
+    top: 80px;
+    left: 260px;
+    border-radius: 75px 50px 75px 5px;
+    z-index: 0;
+}
+.motor__o {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(211, 12, 88);
+    border: 2px solid black;
+    position: relative;
+    top: -35px;
+    left: 300px;
+    border-radius: 5px 75px 5px 75px;
+    z-index: 0;
+}
+.motor__r:hover ~ .motor__o{
+    background-color: rgb(57, 221, 7);
+}
+.motor__circle {
+    width: 155px;
+    height: 150px;
+    border-top: 12px solid black;
+    border-radius: 50%;
+    position: relative;
+    background-color: rgb(76, 88, 126);
+    top: 0;
+    left: 59px;
+    display: inline-block;
+}
+
+.motor__wheels {
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    right: 120px;
+}
+
+.wheel {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid black;
+    background-color: aqua;
+    position: relative;
+    bottom: 0px;
+    top: 15px;
+    left: -95px;
+    right: 0px;
+
+}
+
+.wheel__disc {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 5px solid black;
+    background-color: rgb(40, 161, 10);
+    position: relative;
+    top: 38px;
+    left: 38px;
+    z-index: 10;
+}
+
+/* ++++++++++++++++++++++++++++ */
+.car-2__motors2 {
+    position: relative;
+    top: -430px;
+    left: 0px;
+    
+}
+.motor2__circle2 {
+    width: 155px;
+    height: 150px;
+    border-top: 12px solid black;
+    border-radius: 50%;
+    position: relative;
+    background-color: rgb(76, 88, 126);
+    top: 0;
+    left: 59px;
+    display: inline-block;
+}
+
+.motor2__wheels2 {
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    right: 120px;
+}
+
+.wheel2 {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid black;
+    background-color: aqua;
+    position: relative;
+    bottom: 0px;
+    top: 15px;
+    left: -95px;
+    right: 0px;
+
+}
+
+.wheel2__disc {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 5px solid black;
+    background-color: rgb(40, 161, 10);
+    position: relative;
+    top: 38px;
+    left: 38px;
+    z-index: 10;
+}
+/* ++++++++++++++++++++++++++++ */
+.car-2__dors{
+    position: relative;
+    display: inline-block;
+    top: -370px;
+    left: 50px;
+}
+
+
+.dor__dor1 {
+    width: 220px;
+    height: 100px;
+    border-right: 20px solid rgb(105, 121, 105);
+    background-color: rgb(70, 95, 70); 
+    border-radius: 30px 255px 15px 0px;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 0;
+    display: inline-block;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+}
+.dor__dor2 {
+    width: 250px;
+    height: 80px;
+    background-color:  rgb(59, 59, 59);
+    border-radius: 0px 20px 0px 0px;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    position: relative;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+.dor__dor3 {
+    width: 250px;
+    height: 80px;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    background-color:  rgb(59, 59, 59);
+    border-radius: 0px 0px 145px 10px;
+    position: relative;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+.dor__dor4 {
+    width: 60px;
+    height: 20px;
+    border: 3px solid black;
+    background-color:  rgb(59, 59, 59);
+    box-shadow: 3px 3px 5px rgb(99, 98, 96);
+    position: relative;
+    bottom: 0px;
+    top: -120px;
+    left: 10px;
+    z-index: 0;
+}
+
+
+.car-2__rear-windows {
+    position: relative;
+    display: inline-block;
+    top: -300px;
+    left: -500px;
+}
+/* .window {position: relative;
+    display: inline-block;
+} */
+.window__first {
+    
+    width: 160px;
+    height: 130px;
+    background-color: rgb(4, 80, 80);
+    position: relative;
+    display: inline-block;
+    top: -70px;
+    bottom: 0px;
+    left: -59px;
+    border-bottom: 2px solid rgb(12, 12, 12);
+    border-right: 2px solid black;
+    border-left: 3px solid grey;
+    border-radius: 150px 0px 150px 0px;
+
+}
+
+
+.road{
+    margin-top: 150px;
+}
